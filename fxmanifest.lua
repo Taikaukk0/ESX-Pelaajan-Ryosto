@@ -8,15 +8,15 @@ version '1.0.2'
 
 client_scripts {
   '@es_extended/locale.lua',
-  'locales/fi.lua',
+  'fi.lua',
   'config.lua',
-  'client/main.lua',
+  'client.lua',
   'handsup.lua'
 }
 
 server_scripts {
   '@es_extended/locale.lua',
-  'locales/fi.lua',
+  'fi.lua',
   'config.lua',
-  'server/main.lua'
+  'servu.lua'
 }
